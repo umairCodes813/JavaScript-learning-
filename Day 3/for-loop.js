@@ -46,22 +46,50 @@ for (let i = 0; i <= 50; i++) {
     sum += i
     // console.log( i + " + " )
 }
-console.log( " Sum of first 50 natural numbers is " + sum )
+console.log(" Sum of first 50 natural numbers is " + sum)
 
 
-// Take a number from the effect and find the sum from 1 to that number
+// Take a number from the user and find the sum from 1 to that number
 
-let num = prompt( " Enter the number sum you want " )
+let num = prompt(" Enter the number sum you want ")
 num = Number.parseInt(num)
 let add = 0
 for (let i = 1; i <= num; i++) {
     add += i
     // console.log( i + " + " )
 }
-console.log( " Sum from 1 to " + num + " is " + add )
+console.log(" Sum from 1 to " + num + " is " + add)
 
 // Print the squares of the numbers 1 to 10.
 
- for( let i = 1 ; i <= 10 ; i++  ){
-    console.log( " Square of "+ i  + " is " + ( i * i ) )
- }
+for (let i = 1; i <= 10; i++) {
+    console.log(" Square of " + i + " is " + (i * i))
+}
+
+
+// Take a number from the user and find its factorial.
+
+let fact_num = prompt(" Enter a number whose factorial you want ")
+fact_num = Number.parseInt(fact_num)
+let factorial = 1
+if (fact_num < 0) {
+    console.log(" Negative Numbers do not have factorial ")
+}
+else {
+    for (let i = 1; i <= fact_num; i++) {
+        factorial *= i
+    }
+    console.log(" The factorial of " + fact_num + " is " + factorial)
+}
+
+
+// Find the average of 10 numbers (by looping through it)
+
+let addition = 0
+for( let i = 1 ; i <= 10 ; i++ ){
+    let user_input = prompt( " Enter number " + i + " : " )
+    user_input = Number.parseInt(user_input)
+    addition += user_input
+}
+let average = addition / 10
+console.log( " The average of numbers you enter is  " + addition )
