@@ -47,8 +47,8 @@ let car = {
     Color: "Black"
 }
 for (const c in car) {
-    if (c == "year")
-        console.log(" The value of " + c + " is " + car[c])
+    if ( c == "year")
+        console.log( " The value of " + c + " is " + car[c] )
 }
 
 
@@ -56,26 +56,25 @@ for (const c in car) {
 
 
 let str = "HELLO"
-for (let s in str) {
-    console.log(" The value at index " + s + " is " + str[s])
+for( let s in str ){
+    console.log( " The value at index " + s + " is " + str[s] )
 }
 
 
 // An object may contain the names of students and their marks. Check with four-in who passed (marks >= 50).
 
 let detail = {
-    Ali: 78,
-    Umair: 87,
-    Ahmad: 56,
-    Hassan: 97,
-    Ammar: 34,
-    Usman: 15,
+    Ali : 78 ,
+    Umair : 87 ,
+    Ahmad : 56 ,
+    Hassan : 97 ,
+    Ammar : 34 ,
+    Usman : 15 ,
 }
-for (let marks in detail) {
-    if (detail[marks] >= 50) {
-        console.log(" You are passed " + marks + " with " + detail[marks] + " numbers . ")
+for( let marks in detail ){
+    if( detail[marks] >= 50 ){
+        console.log( " You are passed " + marks + " with " + detail[marks] + " numbers . " )
     }
 }
-
 
 
