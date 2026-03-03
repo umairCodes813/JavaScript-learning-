@@ -12,8 +12,8 @@ console.log(" The cube of " + cubic_num + " is " + cube(cubic_num))
 
 // Create a function that takes two numbers and returns their difference.
 
-let sub_num1 = Number(prompt(" Enter a number whose cube you want : "))
-let sub_num2 = Number(prompt(" Enter a number whose cube you want : "))
+let sub_num1 = Number(prompt(" Enter the first number : "))
+let sub_num2 = Number(prompt(" Enter the second number : "))
 function Subtraction(a, b) {
     return a - b
 }
@@ -22,7 +22,7 @@ console.log(" The difference of " + sub_num1 + " and " + sub_num2 + " is " + Sub
 
 // Create a function that checks whether a number is positive or negative.
 
-let posi_num = Number(prompt(" Enter a number whose cube you want : "))
+let posi_num = Number(prompt(" Enter a number  : "))
 function check(positive) {
     if (positive > 0) {
         console.log("Number is positive.");
