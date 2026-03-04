@@ -55,3 +55,15 @@ function TwiceString(twotime) {
     console.log( " Your name is " + twotime );
 }
 TwiceString(name)
+
+// Create a function that checks whether a number is divisible by both 2 and 3 or not.
+
+let num = Number(prompt( " Enter a number : " ))
+function number_check(number) {
+    if ( number % 2 == 0 && number % 3 == 0 ) {
+        console,length( " Number is divisible by both 2 and 3 " )
+    } else {
+        console.log( " The number is not divisible by both 2 and 3 " )
+    }
+}
+console.log(number_check(num))
