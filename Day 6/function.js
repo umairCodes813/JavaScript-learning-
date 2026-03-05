@@ -67,3 +67,41 @@ function number_check(number) {
     }
 }
 console.log(number_check(num))
+
+
+// Create a function that returns the first and last characters of a string.
+
+let str = prompt( " Enter any thing : " )
+function fandL(s) {
+    return s[0] + s[str.length - 1] 
+}
+console.log(fandL(str))
+
+
+// Create a function that checks whether the input of the user is "admin".
+
+let userInput = prompt("Enter username:")
+
+function checkAdmin(name) {
+    if (name === "admin") {
+        return "Welcome Admin"
+    } else {
+        return "Access Denied"
+    }
+}
+
+console.log(checkAdmin(userInput))
+
+
+// Create a function that takes three numbers and returns the average.
+
+let num1 = Number( prompt ( " Enter 1st number : " ) )
+let num2 = Number( prompt ( " Enter 2nd number : " ) )
+let num3 = Number( prompt ( " Enter 3rd number : " ) )
+
+function average(avg1,avg2,avg3) {
+    let sum = avg1 + avg2 + avg3
+    return sum / 3
+}
+console.log( average( num1 , num2 , num3 ) )
+
