@@ -44,3 +44,54 @@ console.log( f.concat( " is a person" ) )
 let k = ` Ali is a person who met ${f.slice(0,5)} `
 console.log(k.trim())
 console.log(k)
+
+
+/* What will the following print in JavaScript?
+
+Console.log("har\"".length) */
+
+console.log( "har\"".length )
+
+// so the answer is 4 as we know escape sequence characters are considerd as one
+
+
+/*
+Explore the includes, startsWith & endsWith functions of a string
+*/
+
+let exp = "Umair Ahmad"
+
+/* the includes() fuction of string tell us true answer if the values we give in function is also in string and same in upper or lower case otherwise answer is false as you see */
+
+console.log( exp.includes("x") )
+
+console.log( exp.includes("ah") )
+
+/* the startwith() fuction of string tell us true answer if the values we give in function is at start of the string and same in upper or lower case otherwise answer is false as you see */
+
+console.log( exp.startsWith("u") )
+
+console.log( exp.startsWith("Um") )
+
+/* the endwith() fuction of string tell us true answer if the values we give in function is at end of the string and same in upper or lower case otherwise answer is false as you see */
+
+console.log( exp.endsWith("D") )
+
+console.log( exp.endsWith("ad") )
+
+
+// Extract the amount of this string
+
+let amount = "Please give Rs 1000"
+let amount_extract = Number.parseInt(amount.slice( 15 ))
+console.log( typeof(amount_extract) )
+console.log( amount_extract )
+
+// try to change 4th character of the given string
+
+amount[3] = "i"
+console.log( amount )
+
+// so as we see we cannot changer charcters of string because string is immutable
+
+
