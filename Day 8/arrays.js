@@ -58,3 +58,45 @@ let multi = [2, 4, 6, 8]
 for (const m of multi) {
     console.log( m * 2 )
 }
+
+// Arrays Methods
+
+// 1. tostring() : The method to convert array from type object to string
+
+let arr = [ "Jon" , 37 , "Khalid" , 5000 , true , undefined , "Fahad" ]
+let arr1 = arr.toString()
+
+console.log( arr )
+
+console.log( typeof arr )
+
+console.log( arr1 )
+
+console.log( typeof arr1 )
+
+// 2. join() : join all array elements using an separator and it also change array type into string but we can use seprator of our will
+
+let arr2 = arr.join( "--" )
+
+console.log( arr2 )
+
+console.log( typeof arr2 )
+
+// 3. pop() : it remove the last element from the array . it is one of those methods that actually affect real array elements and print pop element
+
+let arr3 = arr.pop()
+
+console.log( arr3 )
+
+console.log( typeof arr3 )
+
+console.log( arr )
+
+// 4. push() : return new length of array
+
+let arr4 = arr.push( 67 , "Azhar" )
+
+console.log(arr4)
+
+console.log(arr)
+
