@@ -22,10 +22,10 @@ console.log(x)
 let y = "umairahmad"
 console.log(y.toUpperCase())
 
-let sentence = "I love coding"
+let sentence = "I lOVE CODING."
 
 console.log(sentence.length)
-console.log(sentence.toUpperCase())
+console.log(sentence.toLowerCase())
 
 let d = "Helo there are you a boy."
 console.log(d.length)

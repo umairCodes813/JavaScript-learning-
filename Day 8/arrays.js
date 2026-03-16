@@ -100,3 +100,19 @@ console.log(arr4)
 
 console.log(arr)
 
+/* 5. shift() : it remove the first element from the array . it is one of those methods that actually affect real array elements and print pop element */
+
+let arr5 = arr.shift()
+
+console.log(arr5)
+
+console.log(arr)
+
+
+// 6. unshift() : use to add element at the start return new length of array
+
+let arr6 = arr.unshift( 1200 , "Ken" )
+
+console.log(arr6)
+
+console.log(arr)

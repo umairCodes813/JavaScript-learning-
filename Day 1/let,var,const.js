@@ -22,7 +22,7 @@ let d = 67
 console.log(d)
 
 // lets talk about const permanent type
-let Author = " Umair Ahmad "
+const Author = " Umair Ahmad "
 console.log(" The Author of the book is " + Author + "." )
 
 // lets see can we change its value or not
